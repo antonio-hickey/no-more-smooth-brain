@@ -44,4 +44,16 @@ the formula Celsius = (5 / 9) (Fahrenheit - 32).
             - 3 digit wide Fahrenheit & 6 digit wide celsius:
                 `printf("%3d %6d\n", fahr, celsius)`
 
+        - formatting floating point numbers in strings:
+            - %f (as floating point)
+            - %6f (as floating point, at least 6 chars wide)
+            - %.2f (as floating point, 2 chars after decimal point)
+            - %6.2f (as floating point, at least 6 chars wide & 2 chars after decimal point)
+
+    - Our conversion arithmetic is not accurate due to
+      use of integer arithmetic, for example 0^F != -17^C
+      actually 0^F = -17.8^C , so let's use floating point
+      arithmetic to get more accurate conversions.
+
+
 

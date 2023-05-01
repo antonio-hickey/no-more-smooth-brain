@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int fahr, celsius;
+	float fahr, celsius;
 	int lower, upper, step;
 
 	lower = 0; /* lower limit of temp table */
@@ -10,9 +10,9 @@ int main() {
 
 	fahr = lower;
 	while (fahr <= upper) {
-		celsius = 5 * (fahr - 32) / 9; /* calculate the celsius translation */
+		celsius = (5.0 / 9.0) * (fahr - 32.0); /* calculate the celsius translation */
 
-		printf("%3d %6d\n", fahr, celsius); /* %d to print integers */ 
+		printf("%3.0f %6.1f\n", fahr, celsius); /* %d to print integers */ 
 
 		fahr = fahr + step; /* increase fahr by step size */
 	}

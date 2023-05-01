@@ -12,7 +12,7 @@ int main() {
 	while (fahr <= upper) {
 		celsius = 5 * (fahr - 32) / 9; /* calculate the celsius translation */
 
-		printf("%d\t%d\n", fahr, celsius); /* %d to print integers */ 
+		printf("%3d %6d\n", fahr, celsius); /* %d to print integers */ 
 
 		fahr = fahr + step; /* increase fahr by step size */
 	}

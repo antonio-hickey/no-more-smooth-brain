@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+	printf("Fahrenheit -> Celsius | Conversion Table\n\n\n");
+
 	float fahr, celsius;
 	int lower, upper, step;
 

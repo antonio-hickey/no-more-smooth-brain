@@ -55,5 +55,7 @@ the formula Celsius = (5 / 9) (Fahrenheit - 32).
       actually 0^F = -17.8^C , so let's use floating point
       arithmetic to get more accurate conversions.
 
-
+# Excercise's
+ - 1 : Modify the program to print a heading above the table
+    - Just going to print "Fahrenheit -> Celsius | Conversion Table" at the start of the main f(x)
 

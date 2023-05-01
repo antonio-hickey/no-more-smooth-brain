@@ -59,3 +59,5 @@ the formula Celsius = (5 / 9) (Fahrenheit - 32).
  - 1 : Modify the program to print a heading above the table
     - Just going to print "Fahrenheit -> Celsius | Conversion Table" at the start of the main f(x)
 
+ - 2 : Write a f(x) to print the Celsius -> Fahrenheit Conversion Table 
+    - Formula: Fahrenheit = (Celsius * (9 / 5)) + 32

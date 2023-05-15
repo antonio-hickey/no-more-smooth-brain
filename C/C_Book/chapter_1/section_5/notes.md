@@ -13,3 +13,6 @@ The standard library provides serveral f(x)'s for reading or writing one charact
 File Copying
 ---
 Given getchar & putchar, we can write a program to copy it's input into it's output one character at a time.
+
+A better way to write this would be to skip the assignment of `C`, and just `getchar()` in the test part of the
+while loop. This way centralizes the input there, and is now only one refrence to `getchar` shrinking the program. 

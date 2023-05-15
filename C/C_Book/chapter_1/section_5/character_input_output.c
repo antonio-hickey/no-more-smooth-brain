@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-int main() {
+void file_copying() {
 	int c;
 
 	// Excercise 1-7
@@ -10,4 +9,22 @@ int main() {
 	while ((c = getchar()) != EOF) {
 		putchar(c);
 	}
+}
+
+void character_count() {
+	long nc;
+
+	nc = 0;
+	while(getchar() != EOF) {
+		nc++;
+	}
+	printf("%ld\n", nc);
+}
+
+int main() {
+	// File Copying (1.5.1)
+	//file_copying();
+	
+	// Character Count (1.5.2)
+	character_count();
 }

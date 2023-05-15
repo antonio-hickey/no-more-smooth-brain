@@ -16,3 +16,7 @@ Given getchar & putchar, we can write a program to copy it's input into it's out
 
 A better way to write this would be to skip the assignment of `C`, and just `getchar()` in the test part of the
 while loop. This way centralizes the input there, and is now only one refrence to `getchar` shrinking the program. 
+
+Excercise 1-7: print the value of EOF:
+    *  just call `printf("%d", EOF)` , using "%d" becuase `EOF` is a integer 0 or 1.
+

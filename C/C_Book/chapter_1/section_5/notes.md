@@ -25,3 +25,7 @@ Character Counting (1.5.2)
 ---
 Just introducing using `++` operator on a variable through a iterator to get a count.
 
+
+Line Counting (1.5.3)
+---
+ehhh waste of time just checking if the character is `\n` if so increase a count variable.

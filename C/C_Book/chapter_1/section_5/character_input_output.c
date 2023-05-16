@@ -21,10 +21,26 @@ void character_count() {
 	printf("%ld\n", nc);
 }
 
+void line_count() {
+	int c, nl;
+
+	nl = 0;
+	while ((c = getchar()) != EOF) {
+		if (c == '\n') {
+			nl++;
+		}
+	}
+
+	printf("%d", nl);
+}
+
 int main() {
 	// File Copying (1.5.1)
 	//file_copying();
 	
 	// Character Count (1.5.2)
-	character_count();
+	//character_count();
+	
+	// Line Count (1.5.3)
+	line_count();
 }

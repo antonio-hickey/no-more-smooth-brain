@@ -12,6 +12,5 @@
 let rec last a_list =
   match a_list with
   | [] -> None
-  | [ x ] -> Some x
-  | _ :: remaining -> last remaining;;
- 
+  | [x] -> Some x
+  | _ :: r -> last r;;

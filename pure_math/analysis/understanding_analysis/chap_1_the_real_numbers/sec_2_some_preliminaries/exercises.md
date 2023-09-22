@@ -1,20 +1,28 @@
-Excercises
+Exercises for section 2 "Some Preliminaries" (basic set theory & function theory)
 ===
 
-Excercise 1.2.1
+Exercise 1.2.3
 ---
-* (a) Prove $\sqrt{3}$ is irrational. Does a similar argument work to show $\sqrt{6}$ is irrational?
-  -  Proof: A rational number is any number that can be expressed as $p/q$, where $p$ and $q$ are integers and are in simplest form (no common factors). Let's start by assuming there IS a rational number whose square is 3 and then we can continue on a logical path until we reach a unacceptable conclusion.
-    - (1) $$\sqrt{3} = p/q$$
-    - (2) Square both sides of the equation: $$3 = \frac{p}{q}^2$$
-    - (3) From this(2) and a little algebra we can see $3q^2 = p^2$. This implies $p^2$ is a multiple of 3. Now we must consider $p^2$ is divisible by 3, but here we can no longer logically proceed as $p$ and $q$ were already assumed to have no common divisor.
-  
-  - Does a similar argument work to show $\sqrt{6}$ is irrational? (yes)
+Decide which of the following represent true statements about the nature of sets. For any that are false, provide a specific example where the statement in question does not hold.
 
-* (b) Where does the prooof of Thereom 1.1.1 break down if we try to use it to prove $\sqrt{4} \in \mathbb{Q}$?
-  - (1) $$\sqrt{4} = p/q$$
-  - (2) Square both sides of the equation: $$4 = \frac{p}{q}^2$$
-  - (3) From this(2) and a little algebra we can see $4q^2 = p^2$, but now if 4 divides $p^2$, $p$ must be even, so $p = 2r$ for some integer r. For this reason $$q^2 = r^2$$ which implies $r = \pm{q}$, therefore $p = \pm{2q}$.
-  - (4) This may seem like a contradiction at first glance due to $p$ and $q$ sharing factors of $q$, but when $q = \pm{1}$ there are no common divisors.
+---
 
+* (a) If $A_{1} \nsubseteq A_{2} \nsubseteq A_{3} \nsubseteq A_{4} ...$ are all sets containing an infinite number of elements, then the intersection $\cap_{n=1}^{\infty}A_{n}$ is infinite as well.
+    - FALSE, say we have some natural number $m$ that we think will satisfy $m \in \cap_{n=1}^{\infty}A_{n}.$ This would mean that $m \in A_{n}$ (for *every*) $A_{n}$ in our collection of sets, but because $m$ is not a element of $A_{m+1}$ this results with no such $m$ existing and the intersection is empty. $$\bigcap_{n=1}^{\infty}A_{n} = \emptyset$$
+
+---
+
+* (b) If $A_{1} \nsubseteq A_{2} \nsubseteq A_{3} \nsubseteq A_{4} ...$ are all finite, nonempty sets of real numbers, then the intersection $\cap_{n=1}^{\infty}$ is finite and nonempty. 
+
+---
+
+* (c) $A \cap (B \cup C) = (A \cap B) \cup C$
+
+---
+
+* (d) $A \cap (B \cap C) = (A \cap B) \cap C$
+
+---
+
+* (e) $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 
